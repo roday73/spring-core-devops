@@ -16,7 +16,7 @@ public class DevProfileSysOut {
     public DevProfileSysOut(@Value("${guru.springframework.profile.message}") String msg) {
         System.out.println("##################################");
         System.out.println("##################################");
-        System.out.println("##              DEV             ##");
+        System.out.println("##              DEVelopment             ##");
         System.out.println(msg);
         System.out.println("##################################");
         System.out.println("##################################");
